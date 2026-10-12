@@ -1,0 +1,62 @@
+<svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vyraGrad1" x1="80" y1="60" x2="320" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F3A57" />
+      <stop offset="40%" stop-color="#234C68" />
+      <stop offset="75%" stop-color="#4A88AC" />
+      <stop offset="100%" stop-color="#7FB7D6" />
+    </linearGradient>
+    <linearGradient id="vyraGrad2" x1="320" y1="80" x2="100" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#204661" />
+      <stop offset="50%" stop-color="#547489" />
+      <stop offset="100%" stop-color="#B2CBD8" />
+    </linearGradient>
+    <radialGradient id="vyraGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EFF9FD" stop-opacity="0.95" />
+      <stop offset="70%" stop-color="#B2CBD8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0F3A57" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="200" cy="200" r="185" stroke="#0F3A57" stroke-width="9" fill="#FFFFFF"/>
+  <circle cx="200" cy="200" r="172" stroke="#B2CBD8" stroke-width="1.5" stroke-opacity="0.5" fill="none"/>
+
+  <!-- Inner Ambient Glow -->
+  <ellipse cx="200" cy="165" rx="70" ry="85" fill="url(#vyraGlow)" />
+
+  <!-- Logo Mark Loops -->
+  <g transform="translate(40, 20) scale(1.6)">
+    <path
+      d="M74 65C60 76 56 98 64 116C72 134 90 148 100 152C110 148 128 134 136 116C144 98 140 76 126 65C114 55 96 60 90 74C86 83 87 95 93 103C97 108 104 110 110 108C117 105 120 97 118 90C116 83 110 79 104 81"
+      stroke="url(#vyraGrad2)"
+      stroke-width="15"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+      opacity="0.85"
+    />
+    <path
+      d="M100 152C88 146 62 128 54 106C44 80 52 50 78 40C96 32 116 38 126 52C136 66 142 86 138 106C132 130 114 148 100 152Z"
+      stroke="url(#vyraGrad1)"
+      stroke-width="16"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+    <path
+      d="M86 52C72 62 68 84 76 102C82 116 94 126 100 128C106 126 118 116 124 102C132 84 128 62 114 52C106 46 94 46 86 52Z"
+      stroke="url(#vyraGrad1)"
+      stroke-width="9"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+      opacity="0.9"
+    />
+  </g>
+
+  <!-- Typography -->
+  <text x="200" y="315" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="38" letter-spacing="9" fill="#0F3A57">VYRA</text>
+  <text x="200" y="345" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="14" letter-spacing="1.5" fill="#234C68">Mental Health + Technology</text>
+  <line x1="140" y1="360" x2="260" y2="360" stroke="#7FB7D6" stroke-width="2" stroke-linecap="round"/>
+</svg>

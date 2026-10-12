@@ -1,0 +1,8 @@
+{
+  "name": " VYRA - Youth Wellbeing \u0026 Connected Care",
+  "description": "Friendly, modern, and private mental wellbeing platform for teens and young adults with connected provider insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
